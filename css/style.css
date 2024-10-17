@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .header__nav .nav__list {
+      flex-direction: column;
+    }
+    .header__nav .nav__list .nav__item {
+      margin: 0.5rem 0;
+    }
+    .main-content .features .feature {
+      flex: 1 1 100%;
+      margin: 0.5rem 0;
+    }
+  }
+  

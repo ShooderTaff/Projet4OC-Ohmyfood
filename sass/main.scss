@@ -1,0 +1,154 @@
+// VARIABLES
+$shadow-color: #00000040;
+$bord-rond: 25px;
+$width-all: 100%;
+
+// STYLE
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #EAEAEA;
+
+    div {
+        padding: 13px;
+    }
+}
+
+.recherche {
+    height: 50px;
+    background-color: #EAEAEA;
+    box-shadow: 0px 4px 4px 0px $shadow-color;
+
+    input {
+        border: none;
+        background: #EAEAEA;
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+.btn-purple {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px 0px $shadow-color;
+    width: 218px;
+    height: 50px;
+    top: 50px;
+    border-radius: $bord-rond;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    margin-bottom: 57px;
+
+    p {
+        color: white;
+    }
+}
+
+
+.multi {
+    padding-bottom: 61px;
+}
+
+
+.multi h2 {
+    padding-left: 20px;
+}
+
+.choix {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.step {
+    width: $width-all;
+    height: 72.38px;
+    top: 505px;
+    left: 32.51px;
+    border-radius: $bord-rond;
+    opacity: 0px;
+    background: #F6F6F6;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    display: flex;
+
+    b {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.restau {
+    padding-top: 61px;
+    background-color: #EAEAEA;
+    padding-bottom: 34px;
+}
+
+.restau-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.badge {
+    position: absolute;
+}
+
+.cards {
+    background-color: white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+        }
+    }
+
+}
+
+
+
+.cards img {
+    object-fit: cover;
+    width: $width-all;
+    border-radius: 20px 20px 0px 0px;
+    height: 251px;
+}
+
+footer {
+    padding-top: 34px;
+    background-color: #353535;
+    padding-bottom: 22px;
+    padding-left: 25px;
+
+    a {
+        color: white;
+        font-size: 19px;
+        text-decoration: none;
+
+    }
+}
+
+.logo-foot {
+    color: white;
+    padding-bottom: 16px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
